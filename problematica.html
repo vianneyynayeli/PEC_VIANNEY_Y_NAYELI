@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Problematica | Salud mental</title>
+
+    <link rel="stylesheet" href="Estilos.css">
+
+</head>
+
+<body class="pagina-problematica">
+
+    <header class="encabezado-problematica">
+        <h1>Problematica de la salud mental</h1>
+        <p>Conocer, comprender y actuar para construir una comunidad mas saludable.</p>
+    </header>
+
+    <nav class="menu-problematica">
+        <a href="index.html">Inicio</a>
+        <a href="bienestar.html">Redes de bienestar</a>
+        <a href="problematica.html">Problematica</a>
+    </nav>
+
+    <main class="contenido-problematica">
+
+        <section class="introduccion-problematica">
+            <h2>¿Por que debemos hablar de salud mental?</h2>
+            <p>
+                La salud mental forma parte de nuestra salud integral.
+                Influye en como pensamos, sentimos, aprendemos y nos relacionamos
+                con los demas. Hablar de ella ayuda a combatir los prejuicios
+                y a reconocer cuando necesitamos apoyo.
+            </p>
+        </section>
+
+        <section class="tarjeta-problematica">
+            <h2>Principales causas o factores</h2>
+
+            <div class="tarjetas-causas">
+                <article class="causa">
+                    <h3> Presion escolar</h3>
+                    <p>
+                        La acumulacion de tareas, los examenes y las expectativas
+                        pueden generar estres.
+                    </p>
+                </article>
+
+                <article class="causa">
+                    <h3> Situaciones familiares</h3>
+                    <p>
+                        Los conflictos y la falta de comunicacion pueden afectar
+                        el bienestar emocional.
+                    </p>
+                </article>
+
+                <article class="causa">
+                    <h3> Acoso y discriminacion</h3>
+                    <p>
+                        Las burlas, la exclusion y el maltrato pueden hacer que
+                        una persona se sienta insegura o aislada.
+                    </p>
+                </article>
+
+                <article class="causa">
+                    <h3> Redes sociales</h3>
+                    <p>
+                        Las comparaciones, el ciberacoso y el uso poco equilibrado
+                        pueden causar preocupacion.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="tarjeta-problematica">
+            <h2>Posibles consecuencias</h2>
+            <p>Cuando una persona atraviesa dificultades emocionales, puede experimentar:</p>
+
+            <ul>
+                <li>Estres o preocupacion frecuentes.</li>
+                <li>Dificultad para concentrarse en clases.</li>
+                <li>Cambios en el sueño o en el estado de animo.</li>
+                <li>Deseos de aislarse o dejar actividades que disfruta.</li>
+                <li>Dificultades para relacionarse con otras personas.</li>
+            </ul>
+
+            <p>
+                Estas señales pueden tener distintas causas y no significan
+                necesariamente que una persona tenga un trastorno. Si persisten,
+                es importante buscar apoyo.
+            </p>
+        </section>
+
+        <section class="tarjeta-problematica">
+            <h2>¿Que podemos hacer para mejorar la situacion?</h2>
+
+            <ul>
+                <li>Escuchar a los demas sin burlas ni juicios.</li>
+                <li>Promover el respeto y prevenir el acoso escolar.</li>
+                <li>Hablar con una persona adulta de confianza.</li>
+                <li>Organizar actividades de convivencia y apoyo en la escuela.</li>
+                <li>Buscar ayuda profesional cuando sea necesario.</li>
+            </ul>
+        </section>
+
+        <section class="actividad-problematica">
+            <h2>Actividad 1: ¿Que harias en esta situacion?</h2>
+
+            <p>
+                Un compañero se siente muy estresado por las tareas y dice
+                que no sabe como organizarse. ¿Que seria lo mejor?
+            </p>
+
+            <button type="button" onclick="responderSituacion('incorrecta')">
+                Decirle que no exagere
+            </button>
+
+            <button type="button" onclick="responderSituacion('correcta')">
+                Escucharlo y ayudarlo a buscar apoyo
+            </button>
+
+            <button type="button" onclick="responderSituacion('incorrecta')">
+                Ignorarlo
+            </button>
+
+            <p id="respuesta-situacion" class="respuesta-problematica"
+               aria-live="polite"></p>
+        </section>
+
+        <section class="actividad-problematica">
+            <h2>Actividad 2: Cuestionario de aprendizaje</h2>
+
+            <p>
+                Contesta las siguientes preguntas para comprobar lo que aprendiste.
+                Este cuestionario es educativo y no es una evaluacion de tu salud mental.
+            </p>
+
+            <form id="cuestionario-problematica">
+
+                <div class="pregunta">
+                    <p><strong>1. ¿Que es la salud mental?</strong></p>
+
+                    <label>
+                        <input type="radio" name="p1" value="a" required>
+                        No sentir nunca emociones negativas.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="p1" value="b">
+                        Una parte de nuestra salud y bienestar integral.
+                    </label>
+                </div>
+
+                <div class="pregunta">
+                    <p><strong>2. ¿Que debemos hacer si alguien nos cuenta un problema?</strong></p>
+
+                    <label>
+                        <input type="radio" name="p2" value="a" required>
+                        Escuchar con respeto y ofrecer apoyo.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="p2" value="b">
+                        Burlarnos de lo que siente.
+                    </label>
+                </div>
+
+                <div class="pregunta">
+                    <p><strong>3. ¿Que podemos hacer ante el acoso escolar?</strong></p>
+
+                    <label>
+                        <input type="radio" name="p3" value="a" required>
+                        Fingir que no esta ocurriendo.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="p3" value="b">
+                        Buscar apoyo de una persona adulta de confianza.
+                    </label>
+                </div>
+
+                <button type="submit">Ver mis resultados</button>
+            </form>
+
+            <p id="resultado-cuestionario" class="respuesta-problematica"
+               aria-live="polite"></p>
+        </section>
+
+        <section class="tarjeta-problematica">
+            <h2>Recuerda</h2>
+            <p>
+                Pedir ayuda es una forma de cuidarnos. Si tu o alguien que conoces
+                esta pasando por una situacion dificil, habla con una persona adulta
+                de confianza, un orientador escolar o un profesional de la salud.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="pie-problematica">
+        <p>Proyecto Escolar Comunitario | Salud mental</p>
+        <p>Promoviendo el respeto, la empatia y el bienestar.</p>
+    </footer>
+
+    <script>
+        function responderSituacion(respuesta) {
+            const mensaje = document.getElementById("respuesta-situacion");
+
+            if (respuesta === "correcta") {
+                mensaje.textContent =
+                    "¡Correcto! Escuchar sin juzgar y ayudar a buscar apoyo puede marcar la diferencia.";
+                mensaje.style.color = "#286b43";
+            } else {
+                mensaje.textContent =
+                    "Intentalo de nuevo. Lo mejor es escuchar con respeto y ayudar a buscar apoyo.";
+                mensaje.style.color = "#8a3155";
+            }
+        }
+
+        document.getElementById("cuestionario-problematica")
+            .addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                const respuestas = {
+                    p1: "b",
+                    p2: "a",
+                    p3: "b"
+                };
+
+                let puntos = 0;
+
+                for (const pregunta in respuestas) {
+                    const seleccionada = document.querySelector(
+                        'input[name="' + pregunta + '"]:checked'
+                    );
+
+                    if (seleccionada && seleccionada.value === respuestas[pregunta]) {
+                        puntos++;
+                    }
+                }
+
+                const resultado = document.getElementById("resultado-cuestionario");
+
+                resultado.textContent =
+                    "Obtuviste " + puntos + " de 3 respuestas correctas. " +
+                    (puntos === 3
+                        ? "¡Excelente! Comprendiste las ideas principales."
+                        : "Repasa la informacion e intentalo nuevamente.");
+            });
+    </script>
+
+</body>
+</html>

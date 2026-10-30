@@ -1,0 +1,434 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redes de Bienestar | Proyecto Escolar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body class="pagina-bienestar">
+
+    <header class="encabezado-bienestar">
+        <h1>Redes de Bienestar </h1>
+        <p>Pequeñas acciones para cuidar de nosotros y de los demas</p>
+    </header>
+
+    <nav class="menu-bienestar">
+        <a href="index.html">Inicio</a>
+        <a href="bienestar.html" aria-current="page">Redes de bienestar</a>
+        <a href="problematica.html">Problematica</a>
+    </nav>
+
+    <main class="contenido-bienestar">
+
+        <section class="bienvenida-bienestar">
+            <h2>¡Tu bienestar tambien importa! </h2>
+
+            <p>
+                La salud mental forma parte de nuestra salud.
+                Aprender a reconocer nuestras emociones, descansar,
+                convivir y pedir apoyo cuando lo necesitamos puede
+                ayudarnos a sentirnos mejor.
+            </p>
+
+            <a href="#actividades" class="boton-bienestar">
+                Explorar actividades
+            </a>
+        </section>
+
+        <section class="seccion-bienestar">
+            <h2> Habitos que nos ayudan</h2>
+
+            <div class="tarjetas-bienestar">
+
+                <article class="tarjeta-habito">
+                    
+                    <h3>Descansa</h3>
+                    <p>
+                        Procura tener horarios de sueño adecuados
+                        y darte pausas durante el dia.
+                    </p>
+                </article>
+
+                <article class="tarjeta-habito">
+                    
+                    <h3>Expresa lo que sientes</h3>
+                    <p>
+                        Hablar con alguien de confianza puede
+                        ayudarte a comprender tus emociones.
+                    </p>
+                </article>
+
+                <article class="tarjeta-habito">
+                
+                    <h3>Convive con respeto</h3>
+                    <p>
+                        Escucha a los demas, evita las burlas
+                        y ofrece apoyo cuando alguien lo necesite.
+                    </p>
+                </article>
+
+                <article class="tarjeta-habito">
+                    
+                    <h3>Dedica tiempo a ti</h3>
+                    <p>
+                        Realiza actividades que disfrutes,
+                        como dibujar, leer, bailar o practicar deporte.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="actividades" class="seccion-bienestar">
+            <h2>¡Aprendamos participando!</h2>
+            <p class="introduccion-actividad">
+                Explora estas actividades educativas sobre
+                el cuidado de la salud mental.
+            </p>
+
+            <div class="actividad-bienestar" id="cuestionario">
+                <h3> 1. Cuestionario de salud mental</h3>
+
+                <p>
+                    Contesta las cinco preguntas y comprueba
+                    lo que aprendiste.
+                </p>
+
+                <form id="formularioQuiz">
+
+                    <fieldset class="pregunta-bienestar">
+                        <legend>1. ¿Que significa cuidar la salud mental?</legend>
+
+                        <label>
+                            <input type="radio" name="p1" value="a" required>
+                            Ignorar nuestras emociones.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p1" value="b">
+                            Cuidar nuestro bienestar emocional y psicologico.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p1" value="c">
+                            Nunca sentir tristeza.
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="pregunta-bienestar">
+                        <legend>2. ¿Que puedes hacer ante el estres escolar?</legend>
+
+                        <label>
+                            <input type="radio" name="p2" value="a" required>
+                            Organizar tus tareas y tomar descansos.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p2" value="b">
+                            Dejar de dormir para terminar todo.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p2" value="c">
+                            Guardarte todas tus preocupaciones.
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="pregunta-bienestar">
+                        <legend>3. ¿Que puedes hacer si necesitas apoyo?</legend>
+
+                        <label>
+                            <input type="radio" name="p3" value="a" required>
+                            Fingir que todo esta bien.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p3" value="b">
+                            Hablar con alguien de confianza.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p3" value="c">
+                            Pensar que nadie puede ayudarte.
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="pregunta-bienestar">
+                        <legend>4. ¿Por que es importante dormir bien?</legend>
+
+                        <label>
+                            <input type="radio" name="p4" value="a" required>
+                            Favorece el descanso y la concentracion.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p4" value="b">
+                            Elimina todos los problemas.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p4" value="c">
+                            Evita sentir cualquier emocion.
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="pregunta-bienestar">
+                        <legend>5. ¿Como apoyamos a un compañero?</legend>
+
+                        <label>
+                            <input type="radio" name="p5" value="a" required>
+                            Burlandonos de lo que siente.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p5" value="b">
+                            Contando sus problemas a todos.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="p5" value="c">
+                            Escuchandolo con respeto y sin juzgar.
+                        </label>
+                    </fieldset>
+
+                    <button type="submit" class="boton-bienestar">
+                        Revisar respuestas
+                    </button>
+
+                    <button type="reset" class="boton-reiniciar">
+                        Volver a intentarlo
+                    </button>
+
+                    <div id="resultadoQuiz"
+                         class="resultado-bienestar"
+                         aria-live="polite"></div>
+
+                </form>
+            </div>
+
+            <div class="actividad-bienestar" id="emociones">
+                <h3> 2. Rincon de emociones</h3>
+
+                <p>
+                    ¿Como te sientes hoy? Elige una opcion.
+                    No hay respuestas buenas ni malas.
+                </p>
+
+                <div class="opciones-emocion">
+
+                    <button type="button" class="boton-emocion"
+                            data-mensaje="¡Que bueno! Disfruta este momento y compartelo si quieres.">
+                        😊 Feliz
+                    </button>
+
+                    <button type="button" class="boton-emocion"
+                            data-mensaje="Puedes aprovechar este momento para descansar o hacer algo que disfrutes.">
+                        😌 Tranquilo/a
+                    </button>
+
+                    <button type="button" class="boton-emocion"
+                            data-mensaje="Haz una pausa si puedes, organiza tus pendientes y busca apoyo si lo necesitas.">
+                        😟 Estresado/a
+                    </button>
+
+                    <button type="button" class="boton-emocion"
+                            data-mensaje="Esta bien no sentirse bien todo el tiempo. Date un momento y considera hablar con alguien de confianza.">
+                        💙 Triste
+                    </button>
+
+                </div>
+
+                <div id="mensajeEmocion"
+                     class="mensaje-bienestar"
+                     aria-live="polite">
+                    Tu emocion es valida. Elige una opcion para recibir una sugerencia.
+                </div>
+            </div>
+
+            <div class="actividad-bienestar" id="respiracion">
+                <h3> 3. Pausa de respiracion</h3>
+
+                <p>
+                    Dedica unos segundos a hacer una pausa.
+                    Respira suavemente, sin forzar el aire.
+                </p>
+
+                <div id="circuloRespiracion"
+                     class="circulo-respiracion"
+                     aria-live="polite">
+                    Preparate
+                </div>
+
+                <p id="instruccionRespiracion" aria-live="polite">
+                    Presiona comenzar cuando estes listo/a.
+                </p>
+
+                <button type="button" id="iniciarRespiracion"
+                        class="boton-bienestar">
+                    Comenzar
+                </button>
+
+                <button type="button" id="detenerRespiracion"
+                        class="boton-reiniciar">
+                    Reiniciar
+                </button>
+            </div>
+
+        </section>
+
+        <section class="seccion-bienestar redes-apoyo">
+            <h2> ¡No tienes que hacerlo todo a solas!</h2>
+
+            <p>
+                Si una situacion te preocupa o te resulta dificil,
+                puedes hablar con un familiar, docente, orientador
+                escolar u otra persona adulta de confianza.
+            </p>
+
+            <p>
+                Pedir ayuda es una forma de cuidarte.
+                Tambien es importante respetar los sentimientos
+                y la privacidad de los demas.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="pie-bienestar">
+        <p>Proyecto Escolar Comunitario | Salud mental</p>
+        <p>El bienestar comienza con pequeñas acciones. </p>
+    </footer>
+
+    <script>
+        // 1. CUESTIONARIO
+
+        const formularioQuiz = document.getElementById("formularioQuiz");
+        const resultadoQuiz = document.getElementById("resultadoQuiz");
+
+        const respuestasCorrectas = {
+            p1: "b",
+            p2: "a",
+            p3: "b",
+            p4: "a",
+            p5: "c"
+        };
+
+        formularioQuiz.addEventListener("submit", function(evento) {
+            evento.preventDefault();
+
+            let puntos = 0;
+
+            for (const pregunta in respuestasCorrectas) {
+                const seleccionada = formularioQuiz.querySelector(
+                    'input[name="' + pregunta + '"]:checked'
+                );
+
+                if (seleccionada &&
+                    seleccionada.value === respuestasCorrectas[pregunta]) {
+                    puntos++;
+                }
+            }
+
+            const mensajes = [
+                "Puedes seguir aprendiendo sobre el bienestar emocional.",
+                "¡Buen comienzo! Repasa los consejos de esta pagina.",
+                "¡Vas aprendiendo! Ya conoces algunas ideas importantes.",
+                "¡Muy bien! Tienes buenos conocimientos del tema.",
+                "¡Excelente! Respondiste correctamente todas las preguntas."
+            ];
+
+            resultadoQuiz.textContent =
+                "Obtuviste " + puntos + " de 5 puntos. " + mensajes[puntos];
+        });
+
+        formularioQuiz.addEventListener("reset", function() {
+            resultadoQuiz.textContent = "";
+        });
+
+
+        // 2. RINCON DE EMOCIONES
+
+        const botonesEmocion = document.querySelectorAll(".boton-emocion");
+        const mensajeEmocion = document.getElementById("mensajeEmocion");
+
+        botonesEmocion.forEach(function(boton) {
+            boton.addEventListener("click", function() {
+                mensajeEmocion.textContent = boton.dataset.mensaje;
+            });
+        });
+
+
+        // 3. ACTIVIDAD DE RESPIRACION
+
+        const circulo = document.getElementById("circuloRespiracion");
+        const instruccion = document.getElementById("instruccionRespiracion");
+        const iniciar = document.getElementById("iniciarRespiracion");
+        const detener = document.getElementById("detenerRespiracion");
+
+        let intervaloRespiracion = null;
+        let tiempoFinal = null;
+        let faseRespiracion = 0;
+
+        function reiniciarRespiracion() {
+            clearInterval(intervaloRespiracion);
+            clearTimeout(tiempoFinal);
+
+            intervaloRespiracion = null;
+            tiempoFinal = null;
+            faseRespiracion = 0;
+
+            circulo.classList.remove("inhalar", "exhalar");
+            circulo.textContent = "Preparate";
+            instruccion.textContent =
+                "Presiona comenzar cuando estes listo/a.";
+
+            iniciar.disabled = false;
+        }
+
+        function cambiarFase() {
+            if (faseRespiracion % 2 === 0) {
+                circulo.classList.remove("exhalar");
+                circulo.classList.add("inhalar");
+                circulo.textContent = "Inhala suavemente";
+                instruccion.textContent =
+                    "Toma aire con suavidad, sin forzarte.";
+            } else {
+                circulo.classList.remove("inhalar");
+                circulo.classList.add("exhalar");
+                circulo.textContent = "Exhala suavemente";
+                instruccion.textContent =
+                    "Suelta el aire con calma, sin contenerlo.";
+            }
+
+            faseRespiracion++;
+        }
+
+        iniciar.addEventListener("click", function() {
+            if (intervaloRespiracion !== null) return;
+
+            iniciar.disabled = true;
+            cambiarFase();
+
+            intervaloRespiracion = setInterval(cambiarFase, 4000);
+
+            tiempoFinal = setTimeout(function() {
+                reiniciarRespiracion();
+
+                circulo.textContent = "¡Muy bien!";
+                instruccion.textContent =
+                    "Terminaste la actividad. Puedes continuar cuando quieras.";
+            }, 20000);
+        });
+
+        detener.addEventListener("click", reiniciarRespiracion);
+    </script>
+
+</body>
+</html>
